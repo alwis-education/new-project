@@ -16,7 +16,7 @@ git init
 connect to remove github repository
 
 ```bash
-git remote add origin https://github.com/alwis-education/new-project.git
+git remote add origin git@github.com:alwis-education/new-project.git
 ```
 
 create file README.md. add some text
@@ -30,6 +30,7 @@ Make file README.md ready to commit. Commit changes.
 ```bash
 git add README.md && git commit -m "init"
 ```
+
 Create new Branch "development" and switch to it
 
 ```bash
